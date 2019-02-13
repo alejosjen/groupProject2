@@ -1,6 +1,6 @@
 # Group Project #2 
 
-The Interstellar Universe ------ [Check out our application!]() 
+The Interstellar Universe ------ [Check out our application!](https://peaceful-atoll-83522.herokuapp.com/) 
 
 Team Members --- [Dan](https://github.com/DanRSolomon), [Kieran](https://github.com/LopTwo), [Jennifer](https://github.com/alejosjen), [Melissa](https://github.com/melperez19)
 
