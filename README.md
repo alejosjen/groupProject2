@@ -1,6 +1,6 @@
 # Group Project #2 
 
-The Interstellar Universe ------ [Check out our application!]() 
+The Interstellar Universe ------ [Click to see our site in action on Heroku!](https://peaceful-atoll-83522.herokuapp.com/) 
 
 Team Members --- [Dan](https://github.com/DanRSolomon), [Kieran](https://github.com/LopTwo), [Jennifer](https://github.com/alejosjen), [Melissa](https://github.com/melperez19)
 
@@ -10,7 +10,7 @@ Project Description --- A learning platform based on space data in which users c
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-Final application screesnshot -
+Final application screenshot -
 
 ![final-screenshot](https://github.com/alejosjen/groupProject2/blob/master/public/assets/images/proj2screenshot.png) 
 ![final-screenshot](https://github.com/alejosjen/groupProject2/blob/master/public/assets/images/quizScreenshot.png)
