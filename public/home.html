@@ -66,7 +66,7 @@
                 <input class="form-control mr-sm-2" type="search" placeholder="City, State" aria-label="Search">
                 <button class="btn btn-outline-primary my-2 my-sm-0 navSubmit" type="submit">Search</button>
             </form>
-
+            
         </div>
     </nav>
 
@@ -82,49 +82,12 @@
     <!-- Api Search Result Container -->
     <div class="container home-results">
 
-        <!-- Kennedy Space Center Weather -->
-        <div class="weather col-12 mt-5 text-center">
-            <h4> Current Weather for Kennedy Space Center</h4>
-            <a class="weatherwidget-io" href="https://forecast7.com/en/28d39n80d61/cape-canaveral/?unit=us"
-                data-label_1="CAPE CANAVERAL" data-label_2="WEATHER" data-theme="original">CAPE CANAVERAL WEATHER</a>
-            <script>
-                !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
-            </script>
+        <div class="weather col-6 mt-5">
+            <h4> Related Weather Info</h4>
         </div>
-
-        <!-- ISS Tracker -->
-        <div class="col-12 mt-5" id="content" tabindex="-1">
-            <div class="col-12 col-md-offset-1">
-                <h2 class="text-center"><i class="fa fa-map"></i> Live Space Station Tracking Map</h2>
-                <p class="text-center">The tracker (top map) shows where the Space Station is right now and its
-                    path 90 minutes ago (-1.5
-                    hr) and 90 minutes ahead (+1.5 hr). The dark overlay indicates where it is nighttime in the
-                    world.
-                    The map of Earth below the tracker shows where the Space Station is flying directly above.</p>
-                <p class="text-center">Map Source: <a href="http://wsn.spaceflight.esa.int/iss/index_portal.php">www.esa.int</a></p>
-
-            </div>
-            <div class="row map-container d-flex justify-content-around">
-
-                    <div class="col-6" id="iss-pos-wrapper">
-                        <iframe src="http://wsn.spaceflight.esa.int/iss/index_portal.php" style="border: 0 none transparent; " id="iss-pos"
-                            height="450" frameborder="0" scrolling="no" allowfullscreen title="ESU ISS tracking map">ESA
-                            ISS tracking map</iframe>
-                            
-                    </div>
-
-                    <!-- Spot The Station Widget -->
-                    <div class="meteorology col-6" style="margin-top: 0px;">
-                        <div style="display:inline-block; border: 1px solid #CCC; border-radius: 6px; -webkit-border-radius: 6px; -o-border-radius: 6px; position: relative; overflow: hidden; width: 310px; height: 450px;"><iframe
-                                src='https://spotthestation.nasa.gov/widget/widget2.cfm?theme=2'  height='450'
-                                frameborder='0'></iframe>
-                        </div>
-                    </div>
-                <!-- </div> -->
-            </div>
+        <div class="meteorology col-6 mt-5">
+            <h4>Related Meteorology Info</h4>
         </div>
-
-        <!-- Nasa Pic of the Day Data -->
         <div class="resources col-12">
             <h4 class="mt10">Nasa Image of the Day</h4>
             <img id="apod_img_id" width="250px" />
@@ -136,14 +99,9 @@
             <p id="apod_explaination"></p>
             <br />
         </div>
-        <div class="fixed-bottom">
-                <span class="navbar-text text-white">
-                        <a href="/meetTeam">
-                            <i class="far fa-laugh-beam"></i> Meet the Team
-                        </a>
-                    </span>
-        </div>
+
     </div>
+
 
 
     <script type="text/javascript" src="assets/js/nasaAPI.js"></script>
